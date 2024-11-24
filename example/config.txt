@@ -1,0 +1,2 @@
+Prefix plugins/PCATSNE/example/
+Plugin PCATSNE inputfile PCASD.rds outputfile PCATSNE
