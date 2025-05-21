@@ -14,5 +14,5 @@ pdf(paste(outputfile, "pdf", sep="."))
 saveRDS(sc, paste(outputfile, "rds", sep="."))
 # plot cells in tSNE spaces
 plotRDS(sc, feature.type="tsne")
-
+write.csv(sc@pca$rds, paste(outputfile, "csv", sep="."))
 }
